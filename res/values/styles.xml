@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <item name="android:buttonStyle">@style/styleButton</item>
+    
+    </style>
+		
+    <!--  
+    Стиль Button 
+    -->
+    <style name="styleButton" parent="AppBaseTheme">
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:padding">4dp</item>
+		<item name="android:gravity">center</item>    
+		<item name="android:layout_height">48dp</item>
+        <item name="android:textColor">@color/text_selector</item>
+        
+    </style>
+    
+    <color name="activity_background_color">#669900</color>
+    
+	<!-- 
+		Настройки стиля Активити 
+	-->
+    <style name="stileActivity">
+        <item name="android:background">@drawable/background1</item>
+      </style>  
+    
+</resources>

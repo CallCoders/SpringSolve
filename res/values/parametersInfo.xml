@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="outerDiameter">Внешний диаметр</string>
+    <string name="innerDiameter">Внутренний диаметр</string>
+    <string name="maxDeformation">Максимальная деформация</string>
+    <string name="springHight">Высота</string>
+    <string name="springThickness">Толщина</string>
+    <string name="elasticityModule">Модуль упругости</string>
+    <string name="puassonIndex">Коэффициент Пуассона</string>
+    
+</resources>

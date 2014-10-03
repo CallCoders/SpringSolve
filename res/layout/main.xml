@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    style="@style/stileActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtInputData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/title_main"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white_color" />
+
+        <TextView
+            android:id="@+id/txtHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtInputData"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/gost3057"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white_color" />
+
+        <ImageView
+            android:id="@+id/imgHrTop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtHeight"
+            android:layout_margin="4dp"
+            android:background="@drawable/hr"
+            android:contentDescription="@string/HR" />
+
+        <ImageView
+            android:id="@+id/imgInnerDiametr"
+            android:layout_below="@+id/imgHrTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/DescriptionSpringImage"
+            android:src="@drawable/img_spring" />
+
+        <TextView
+            android:id="@+id/txtCalcChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgInnerDiametr"
+            android:layout_centerHorizontal="true"
+            android:text="@string/CalculationChoice"
+            android:textColor="@color/text_selector" />
+        
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtCalcChoice"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true" >
+
+            <Button
+                android:id="@+id/btnWithChamf"
+                style="@style/styleButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_selector"
+                android:text="@string/chamfer"
+                 />
+
+            <Button
+                android:id="@+id/btnNoChamf"
+                style="@style/styleButton"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/no_chamfer"
+           		 />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTheoryData"
+            style="@style/styleButton"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_selector"
+            android:text="@string/teoretic_data"
+             />
+
+        <ImageView
+            android:id="@+id/imgHeight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnTheoryData"
+            android:layout_margin="4dp"
+            android:background="@drawable/hr"
+            android:contentDescription="@string/HR" />
+
+    </RelativeLayout>
+
+    
+
+</ScrollView>

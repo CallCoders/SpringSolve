@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Belleville Spring</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="background">#0099cc</color>
+    <color name="white_color">#FFFFFF</color>
+    <string name="title_main">Расчет тарельчатых пружин</string>
+    <string name="company_copyname">Рога и копыта (с)</string>
+    <string name="teoretic_data">Теоретические данные</string>
+    <string name="calculation">Расчет:</string>
+    <string name="chamfer">С кромкой</string>
+    <string name="no_chamfer">Без кромки</string>
+    <string name="gost3057">ГОСТ 3057–90</string>
+    <string name="CalculationChoice">Выберите вариант расчета:</string>
+    <string name="DescriptionSpringImage">Тарельчатая пружина</string>
+    <string name="HR">horizontal line</string>
+    <string name="VR">Vertikal line</string>
+    <string name="input_data">Введите исходные данные</string>
+    <string name="result">Результат</string>
+    <string name="about2">
+        Приложение для расчета тарельчатых пружин согласно ГОСТ 3057-90. 
+        
+    </string>
+    <string name="designers">Дизайн: </string>
+    <string name="programming">Программинг: </string>
+    <string name="company">Компания: </string>
+    <string name="osipenko_p">Осипенко Павел</string>
+    <string name="galba_e">Галба Евгений</string>
+    <string name="roga_i_kopyta">Рога и копыта</string>
+    <string name="about1">О приложении: </string>
+    <string name="D1">D1</string>
+    
+    <!--  Переменные описания некоторых параметров в виде HTML -->
+    <string name="kPuasson">
+    <![CDATA[   
+    
+<p style="text-align: justify;"><strong>Коэффициент Пуассона</strong> (обозначается как &nu; или &mu;&nbsp;)&nbsp;&mdash; величина отношения относительного поперечного сжатия к относительному продольному растяжению. Этот коэффициент зависит не от размеров тела, а от природы материала, из которого изготовлен образец.</p>
+
+<p style="text-align: justify;">При приложении к телу растягивающего усилия оно начинает удлиняться в продольном направлении, а поперечное сечение уменьшается. Коэффициент Пуассона показывает, во сколько раз относительное уменьшение поперечного размера деформируемого тела больше относительного увеличения его длины, при его растяжении. Для абсолютно хрупкого материала коэффициент Пуассона равен 0, для абсолютно несжимаемого&nbsp;&mdash; 0,5. Для большинства <a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BB%D1%8C" title="Сталь">сталей</a> этот коэффициент лежит в районе 0,3, для резины он примерно равен 0,5.</p>
+
+<p style="text-align: justify;"><a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D1%8B" title="Размерность физической величины">Безразмерен</a>, но может быть указан в относительных единицах: мм/мм, м/м.</p>
+
+<p><strong style="line-height: 1.6em;">Уравнение: &nbsp;</strong><span style="line-height: 1.6em;">&mu;​ =&nbsp;|έ &frasl; &epsilon;|</span></p>
+
+<p><span style="line-height: 1.6em;">где&nbsp;</span></p>
+
+<p style="margin-left: 40px;"><span style="text-align: center;">&mu;​ -&nbsp;</span>коэффициент Пуассона;</p>
+
+<p style="margin-left: 40px;"><span style="text-align: center;">έ -&nbsp;</span>деформация в поперечном направлении (отрицательна при осевом растяжении, положительна при осевом сжатии);</p>
+
+<p style="margin-left: 40px;"><span style="text-align: center;">&epsilon; -&nbsp;</span>продольная деформация (положительна при осевом растяжении, отрицательна при осевом сжатии).​</p>
+
+    
+    ]]>
+	</string>
+
+    <string name="modElast">
+   
+    <![CDATA[  
+    
+<p style="text-align: justify;"><strong>Модуль упругости</strong>&nbsp;&mdash; общее название нескольких физических величин, характеризующих способность твёрдого тела (материала, вещества) упруго деформироваться (то есть не постоянно) при приложении к нему силы. В области упругой деформации модуль упругости тела в общем случае зависит от напряжения и определяется производной (градиентом) зависимости напряжения от деформации, то есть тангенсом угла наклона диаграммы напряжений-деформаций.</p>
+
+<p style="text-align: justify;">В наиболее распространенном случае зависимость напряжения и деформации линейная (закон Гука):</p>
+
+<p style="text-align: justify;">E= &sigma; / &epsilon;</p>
+
+<p>где:</p>
+
+<p>E&nbsp;&mdash; модуль упругости;</p>
+
+<p><span style="text-align: justify;">&sigma; </span>&mdash;&nbsp;напряжение, вызываемое в образце действующей силой (равно силе, делённой на площадь приложения силы);<span style="text-align: justify;">&nbsp;</span></p>
+
+<p><span style="text-align: justify;">&epsilon;&nbsp;</span>&mdash;&nbsp;упругая деформация образца, вызванная напряжением (равна отношению изменения размера образца после деформации к его первоначальному размеру).</p>
+
+<p>Если напряжение измеряется в паскалях, то, поскольку деформация является безразмерной величиной, единицей измерения <em>&lambda;</em> также будет паскаль. Альтернативным определением является определение, что модуль упругости&nbsp;&mdash; это напряжение, достаточное для того, чтобы вызвать увеличение длины образца в два раза. Такое определение не является точным для большинства материалов, потому что это значение намного больше чем предел текучести материала или значения, при котором удлинение становится нелинейным, однако оно может оказаться более интуитивным.</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;По согласованию между потребителем и изготовителем допускается изготовление пружин из сталей марок 60С2, 51ХФА, 60С2ХА, 60С2Н2А, 65С2ВА, 70С2ХА по ГОСТ 14959.</p>
+
+<p>Для расчетов принято значение E = 2.06*10<sup>5</sup></p>
+    
+    
+     ]]>
+	</string>
+	 
+	<string name="steelDensity">
+	    <![CDATA[
+<p><strong>Плотность стали</strong>&nbsp; - параметр который применяют для расчета массы пружины, который равен&nbsp;</p>
+<p>&rho; = 7,85*10<sup>-6 &nbsp;кг</sup>/<sub>мм<sup>3</sup></sub></p>
+	    ]]>
+	</string>
+<!--  Конец описания некоторых параметров в виде HTML -->
+	<string name="tv1">\u03c3(0.2) = 11,111 МПа\n
+	    				\u03c3(0.4) = 11,111 МПа\n
+	    				\u03c3(0.6) = 11,111 МПа\n
+	    				\u03c3(0.8) = 11,111 МПа\n
+	    				\u03c3(1.0) = 11,111 МПа\n
+	    </string>
+	    
+	<string name="tv2">\u03c3(0.2) = 11,111 МПа\n
+	    				\u03c3(0.4) = 11,111 МПа\n
+	    				\u03c3(0.6) = 11,111 МПа\n
+	    				\u03c3(0.8) = 11,111 МПа\n
+	    				\u03c3(1.0) = 11,111 МПа\n
+	    </string>
+	    
+	<string name="tv3">\u03c3(0.2) = 11,111 МПа\n
+	    				\u03c3(0.4) = 11,111 МПа\n
+	    				\u03c3(0.6) = 11,111 МПа\n
+	    				\u03c3(0.8) = 11,111 МПа\n
+	    				\u03c3(1.0) = 11,111 МПа\n
+	    </string>
+	<color name="first_line">#abd5db</color>
+	<color name="second_line">#6ee1a0</color>
+	<color name="third_line">#f2f1a8</color>
+	
+
+</resources>
